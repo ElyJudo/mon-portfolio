@@ -1,0 +1,48 @@
+.container-toolip {
+  margin-top: 0px;
+  text-align: center;
+}
+.toolip {
+  position: relative;
+  border: 2px solid transparent;
+  transition-delay: 0.3s;
+  border-radius: 4px;
+    /*! border-bottom: 1px solid black; */
+}
+.toolip-text {
+  color: black;
+  background-color: var(--accent-2);
+  padding: 5px;
+  border-radius: 4px;
+/*     display: none; */
+  visibility: hidden;
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  width: 200px;
+  margin-left: -100px;
+  left: 50%;
+  top: -100%;
+  transition:var(--transition);
+  opacity: 0;
+}
+.toolip:hover > .toolip-text {
+  visibility: visible;
+/*     display: none; */
+  opacity: 1;
+}
+.toolip > .toolip-text::after {
+  content: "";
+  position:absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border: 5px solid transparent;
+  border-top-color: var(--accent-2);
+}
+svg {
+  transition:var(--transition);
+}
+.toolip:hover svg {
+  fill: var(--accent-2)
+}

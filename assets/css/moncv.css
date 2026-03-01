@@ -1,0 +1,16 @@
+body{
+    inset: 0;
+}
+
+main{
+    display: flex;
+    width: 100dvw;
+    height: 100dvh
+    
+}
+
+section{
+    border: 1px solid black;
+    width: 50%;
+    height: 100%;
+}
