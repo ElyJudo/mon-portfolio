@@ -303,7 +303,7 @@ button[type="submit"] {
   flex-wrap: nowrap;
   margin: 0px auto;
   /*! background-color: var(--bg); */
-  padding: 3%;
+  padding: 2%;
 }
 
 /* Sections */
