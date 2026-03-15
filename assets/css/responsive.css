@@ -19,6 +19,30 @@
 /*   .nav-links li{
     border-bottom:1px solid white;
   } */
+  html,body{
+    position: static;
+    /*! height: max-content; */
+    display:block;
+    overflow: auto;
+  }
+  
+  main{
+    flex-direction: column;
+    overflow:auto;
+    width: 100%;
+  }
+  
+  .section1{
+    width: 100%;
+  }
+  .section2{
+    width: 100%;
+  }
+  
+  
+  
+  
+  
   .nav-links {
     gap:0px;
     display:none;
