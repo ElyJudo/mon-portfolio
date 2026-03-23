@@ -243,6 +243,7 @@ a {
   border-radius: 4px;
   flex: 1;
   text-align: center;
+  z-index:2;
 }
 
 .a-propos{
